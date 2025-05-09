@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time_frames">
+        <item>Pilih</item>
+        <item>Harian</item>
+        <item>Mingguan</item>
+        <item>Bulanan</item>
+    </string-array>
+
+    <string-array name="cardio_exercise_types">
+        <item>Pilih senaman</item>
+        <item>Berjalan</item>
+        <item>Lari</item>
+        <item>Renang</item>
+        <item>Berbasikal</item>
+        <item>Lain-lain</item>
+    </string-array>
+
+    <string-array name="weight_exercise_types">
+        <item>Pilih senaman</item>
+        <item>Senaman</item>
+        <item>Angkat Berat</item>
+        <item>Latihan Berat Lain</item>
+    </string-array>
+
+    <string-array name="exercise_duration">
+        <item>1 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+        <item>15 minit</item>
+        <item>30 minit</item>
+        <item>45 minit</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>3 jam</item>
+        <item>4 jam</item>
+        <item>5 jam</item>
+        <item>6 jam</item>
+        <item>7 jam</item>
+        <item>8 jam</item>
+        <item>9 jam</item>
+        <item>10 jam</item>
+    </string-array>
+
+    <string-array name="exercise_distance">
+        <item>1 km</item>
+        <item>2 km</item>
+        <item>3 km</item>
+        <item>4 km</item>
+        <item>5 km</item>
+        <item>6 km</item>
+        <item>7 km</item>
+        <item>8 km</item>
+        <item>9 km</item>
+        <item>10 km</item>
+        <item>11 km</item>
+        <item>12 km</item>
+        <item>13 km</item>
+        <item>14 km</item>
+        <item>15 km</item>
+        <item>16 km</item>
+        <item>17 km</item>
+        <item>18 km</item>
+        <item>19 km</item>
+        <item>20 km</item>
+    </string-array>
+    <string name="app_name">Fitness App</string>
+    <string name="welcome" >Selamat Datang ke applikasi Fitjourney</string>
+    <string name="Home">Laman utama</string>
+    <string name="Profile">profil</string>
+    <string name="Mon">Isnin</string>
+    <string name="Tue">Selasa</string>
+    <string name="Wed">Rabu</string>
+    <string name="Thu">Khamis</string>
+    <string name="Fri">Jumaat</string>
+    <string name="Sat">Sabtu</string>
+    <string name="Sun">Ahad</string>
+    <string name="egg_name">Telur</string>
+    <string name="bread_name">Roti</string>
+    <string name="orangejuice_name">Jus oren</string>
+    <string name="shrimp_name">Udang</string>
+    <string name="vegetables_name">Sayur goreng tumis</string>
+    <string name="chicken_name">Dada ayam</string>
+    <string name="sweetpotato_name">Ubi ungu</string>
+    <string name="rice_name">Nasi</string>
+    <string name="milk_name">Susu</string>
+    <string name="Food_Encyclopedia">Ensiklopedia Makanana</string>
+    <string name="Calorie_Calculator">Kalkulator Kalori</string>
+    <string name="go_to_profile">Pergi ke Profil</string>
+    <string name="confirm">Sahkan</string>
+    <string name="hi_welcome">Hai, Selamat Datang</string>
+    <string name="enter_name">Masukkan nama anda</string>
+    <string name="about_us">Mengenai Kami</string>
+    <string name="tracker">Penjejak</string>
+    <string name="mood_tracker">Penjejak Mood</string>
+    <string name="workout_tracker">Penjejak Senaman</string>
+    <string name="wellness_tracker">Penjejak Kesihatan</string>
+    <string name="get_started">Mula</string>
+    <string name="check_health_status">Periksa Status Kesihatan Anda</string>
+    <string name="take_a_break">Berehat sebentar</string>
+    <string name="ready_for_new_wins">Sedia kemenangan\nbaru?</string>
+    <string name="sick">Sakit</string>
+    <string name="recommended_recipe">Resepi Disyorkan</string>
+    <string name="fuel_your_fitness">Beri tenaga kepada\nkecergasan anda dengan\nresepi kaya protein yang\npenuh kuasa ini!</string>
+    <string name="save">Simpan</string>
+    <string name="injured">Cedera</string>
+    <string name="hi_user">Hai, Pengguna!</string>
+    <string name="active">Aktif</string>
+    <string name="crush_it">Anda boleh.</string>
+    <string name="welcome_text">HI, SELAMAT DATANG</string>
+    <string name="save_button_text">Simpan</string>
+    <string name="name_input_hint">Masukkan nama anda</string>
+    <string name="privacy_policy_title">Dasar Privasi</string>
+    <string name="privacy_policy_content">Di Tracker, kami mengutamakan privasi anda dengan melindungi maklumat peribadi anda dan menjelaskan amalan kami dengan jelas. Kami mengumpul data seperti butiran peribadi, metrik kesihatan, lokasi (jika diaktifkan), dan maklumat peranti untuk meningkatkan perkhidmatan kami, memperibadikan pengalaman anda, dan menjejaki kemajuan kecergasan anda. Kami mungkin berkongsi maklumat dengan penyedia pihak ketiga yang dipercayai untuk meningkatkan fungsi aplikasi dan hanya mendedahkan data seperti yang dikehendaki oleh undang-undang. Kami melaksanakan langkah keselamatan yang kuat untuk melindungi data anda tetapi ambil perhatian bahawa tiada sistem dalam talian yang sepenuhnya selamat. Anda boleh mengakses, mengemas kini, atau memadam data anda dan mengurus keutamaan pemberitahuan dalam aplikasi. Aplikasi kami tidak bertujuan untuk kanak-kanak di bawah umur 13 tahun dan kami hanya mengekalkan data apabila diperlukan. Kemas kini kepada dasar ini akan disampaikan melalui aplikasi, dan anda boleh menghubungi kami dengan sebarang pertanyaan di tracker@gmail.com.</string>
+    <string name="last_updated">Kali Terakhir Dikemas Kini: Memuatkan...</string>
+    <string name="about_me">Tentang Saya</string>
+    <string name="user_name">Nama Pengguna</string>
+    <string name="my_mood">Perasaan</string>
+    <string name="my_wellness">Kesejahteraan</string>
+    <string name="my_profile">Profil</string>
+    <string name="my_workout">Senaman</string>
+    <string name="settings">Tetapan</string>
+    <string name="support_us">Sokong Kami</string>
+    <string name="language">Bahasa</string>
+    <string name="privacy_policy">Dasar Privasi</string>
+    <string name="profile_title">Profil</string>
+    <string name="enter_gender">Masukkan Jantina</string>
+    <string name="enter_age">Masukkan Umur</string>
+    <string name="enter_weight">Masukkan Berat (kg)</string>
+    <string name="enter_year_of_birth">Masukkan Tahun Lahir</string>
+    <string name="enter_height">Masukkan Ketinggian (cm)</string>
+    <string name="save_button">Simpan</string>
+    <string name="saved_details">Butiran yang disimpan anda akan muncul di sini</string>
+    <string name="update_user_profile">Kemas Kini Profil Pengguna</string>
+    <string name="achieved_goal">Anda telah mencapai matlamat anda!</string>
+    <string name="congrats">Tahniah!</string>
+    <string name="todays_goal_ml">Matlamat Hari Ini (ml):</string>
+    <string name="enter_goal">Masukkan matlamat anda</string>
+    <string name="add">TAMBAH</string>
+    <string name="close">x</string>
+    <string name="todays_goal_steps">Matlamat Hari Ini (langkah):</string>
+    <string name="enter_hydration">Masukkan pengambilan hidrasi anda (ml)</string>
+    <string name="bmi_calculator">Kalkulator BMI</string>
+    <string name="calculate">Kira</string>
+    <string name="bmi_result">BMI anda ialah....</string>
+    <string name="bmi_category">yang merupakan</string>
+    <string name="bmi_underweight">iaitu kekurangan berat badan.</string>
+    <string name="bmi_normal">iaitu berat badan normal.</string>
+    <string name="bmi_overweight">iaitu berat badan berlebihan.</string>
+    <string name="bmi_obese">iaitu obesiti.</string>
+    <string name="bmi_value">0.0</string>
+    <string name="bmi_categories">Kategori BMI:</string>
+    <string name="bmi_fragment">FRAGMEN BMI</string>
+    <string name="underweight">Kurus</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Berat Lebih</string>
+    <string name="obese">Obes</string>
+    <string name="zero">0</string>
+    <string name="time_placeholder">00:00</string>
+    <string name="inhale">TARIK NAFAS</string>
+    <string name="exhale">LEPASKAN NAFAS</string>
+    <string name="breathing_exercise_478">Latihan Pernafasan\n4-7-8</string>
+    <string name="breathing_exercise">Latihan Pernafasan</string>
+    <string name="exit_confirmation">Adakah anda pasti mahu keluar dari latihan ini?</string>
+    <string name="great_job">Kerja yang hebat! Luangkan masa untuk perhatikan bagaimana perasaan anda.</string>
+    <string name="done">Selesai</string>
+    <string name="height_cm">Ketinggian (cm)</string>
+    <string name="weight_kg">Berat (kg)</string>
+    <string name="gender">Lelaki atau Perempuan</string>
+    <string name="year_of_birth">Tahun Lahir</string>
+    <string name="workout_time">Masa Bersenam!</string>
+    <string name="progress_goal">Kemajuan Matlamat</string>
+    <string name="history">Sejarah</string>
+    <string name="log_diary">Catatan Harian</string>
+    <string name="start_goal">Mulakan Penetapan Matlamat ANDA SEKARANG!</string>
+    <string name="mindfulness_meditation">Latihan\nMeditasi Kesedaran</string>
+    <string name="breathing_instructions">Dalam latihan ini, tarik nafas selama 4 saat, tahan selama 7 saat, dan hembus nafas selama 8 saat. Ikuti kiraan detik pada skrin.</string>
+    <string name="start">Mula</string>
+    <string name="meditation_instructions">Dalam latihan ini, tutup mata anda dan fokus pada pernafasan semula jadi anda. Perhatikan setiap tarikan dan hembusan nafas. Jika fikiran timbul, kembali kepada pernafasan anda dengan lembut tanpa penghakiman. Hanya hadir.</string>
+    <string name="summary">Lihat Ringkasan</string>
+    <string name="history_summary">Sejarah - Ringkasan</string>
+    <string name="cardio_exercise">Latihan Jenis Kardio</string>
+    <string name="weight_training_exercise">Latihan Jenis Angkat Berat</string>
+    <string name="run">Lari</string>
+    <string name="walk">Berjalan</string>
+    <string name="cycle">Berkayuh</string>
+    <string name="swim">Berenang</string>
+    <string name="others">Lain-lain</string>
+    <string name="workout">Bersenam</string>
+    <string name="weight_lift">Angkat Berat</string>
+    <string name="back">Kembali</string>
+    <string name="distance_placeholder">0 km</string>
+    <string name="duration_placeholder">0 min</string>
+    <string name="weekdays">      Ahad     Isnin      Selasa    Rabu     Khamis       Jumaat        Sabtu</string>
+    <string name="feeling">Perasaan</string>
+    <string name="excited">Teruja</string>
+    <string name="happy">Gembira</string>
+    <string name="sad">Sedih</string>
+    <string name="neutral">Neutral</string>
+    <string name="anxious">Cemas</string>
+    <string name="angry">Marah</string>
+    <string name="mindfulness">Latihan Kesedaran</string>
+    <string name="journal">Jurnal</string>
+    <string name="hydration_history">Sejarah Hidrasi</string>
+    <string name="hydration_tracker">Penjejak Hidrasi</string>
+    <string name="goal">Matlamat:</string>
+    <string name="record">Rekod:</string>
+    <string name="history_caps">SEJARAH</string>
+    <string name="photo_of_day">Foto Hari Ini</string>
+    <string name="date">Tarikh</string>
+    <string name="example_date">1 DISEMBER 2024</string>
+    <string name="weather">Cuaca</string>
+    <string name="note">Nota</string>
+    <string name="type">Jenis</string>
+    <string name="duration">Tempoh</string>
+    <string name="daily_log">Log Harian</string>
+    <string name="update">Kemas Kini</string>
+    <string name="distance">Jarak</string>
+    <string name="fitness_goal">Tetapkan Matlamat\nKecergasan Anda</string>
+    <string name="time_frame">Jangka Masa</string>
+    <string name="set_goal">Tetapkan Matlamat Anda</string>
+    <string name="feeling_today">Bagaimana perasaan anda hari\nini?</string>
+    <string name="step_history">Sejarah Langkah</string>
+    <string name="age">tahun</string>
+    <string name="user_height">KetinggianPengguna</string>
+    <string name="user_weight">BeratPengguna</string>
+    <string name="user_gender">JantinaPengguna</string>
+    <string name="user_birth">KelahiranPengguna</string>
+    <string name="edit">Sunting</string>
+    <string name="exercise_type">Jenis Latihan</string>
+    <string name="attributes">Atribut</string>
+    <string name="cardio_attributes">Jenis Latihan: Kardio</string>
+    <string name="attributes_km">Atribut: 5 km</string>
+    <string name="timestamp">Cap Masa</string>
+    <string name="quantity">Kuantiti</string>
+    <string name="step_tracking">Penjejakan Langkah</string>
+    <string name="calories_burned">Kalori Dibakar</string>
+    <string name="stop">Berhenti</string>
+    <string name="steps">Langkah</string>
+    <string name="km">km</string>
+    <string name="meditation_exercise">Latihan Meditasi</string>
+    <string name="hold">Tahan</string>
+    <string name="T3_min">3 minit</string>
+    <string name="T5_min">5 minit</string>
+    <string name="T1_min">1 minit</string>
+    <string name="T15_min">15 minit</string>
+    <string name="T25_min">25 minit</string>
+    <string name="years_old">Tahun</string>
+    <string name="cardio_exercise_aero">Senaman Jenis Kardio/Aerobik</string>
+    <string name="weight_exercise_training">Senaman Jenis Latihan Berat</string>
+    <string name="hydration_intake">Masukkan pengambilan air anda (ml)</string>
+    <string name="no">Tidak</string>
+    <string name="yes">Ya</string>
+    <string name="date_2023">Tarikh: 2023-01-01</string>
+    <string name="egg">Pengenalan Ringkas kepada Telur\nTelur adalah makanan serba guna dan kaya nutrien yang hampir semua orang nikmati.\nMereka bukan sahaja lazat tetapi juga sangat baik untuk kesihatan anda.</string>
+    <string name="bread">\t\t\t\tPengenalan Ringkas Kepada Roti\nRoti ialah makanan ruji yang disediakan daripada adunan tepung dan air, biasanya dengan membakar.\nIa serba boleh dan membekalkan tenaga untuk menceriakan hari anda.</string>
+    <string name="orange_juice">t\t\t\tPengenalan Ringkas Kepada Jus Oren\nJus oren ialah minuman menyegarkan yang padat dengan vitamin C dan nutrien penting lain.\nIa adalah cara terbaik untuk memulakan hari anda dengan tenaga dan kesihatan.</string>
+    <string name="shrimp">\t\t\t\tPengenalan Mudah Kepada Udang\nUdang ialah sejenis makanan laut yang rendah kalori dan kaya dengan protein.\nIa adalah bahan yang popular dalam banyak masakan di seluruh dunia.</string>
+    <string name="vegetables">\t\t\t\tPengenalan Mudah Kepada Sayuran\nSayur-sayuran ialah bahagian penting dalam diet yang sihat, membekalkan vitamin, mineral dan serat.\nMenggabungkan sayur-sayuran ke dalam makanan adalah kunci kepada pemakanan seimbang.</string>
+    <string name="chicken">\t\t\t\tPengenalan Mudah Kepada Ayam\nAyam ialah sumber protein tanpa lemak yang lazat dan serba boleh.\nIa boleh disediakan dalam pelbagai cara untuk disesuaikan dengan mana-mana masakan.</string>
+    <string name="sweet_potato">\t\t\t\tPengenalan Mudah Ubi Ubi Ungu\nUbi ungu bukan sahaja berwarna cerah tetapi juga kaya dengan antioksidan dan nutrien.\nIa adalah pilihan yang bagus untuk hidangan yang berkhasiat dan mengenyangkan.</string>
+    <string name="rice">\t\t\t\tPengenalan Ringkas Kepada Nasi\nNasi ialah makanan ruji yang digunakan di seluruh dunia dan merupakan sumber karbohidrat yang sangat baik.\nIa serba boleh dan boleh digandingkan dengan pelbagai hidangan.</string>
+    <string name="milk">\t\t\t\tPengenalan Mudah Kepada Susu\nSusu ialah cecair yang kaya dengan nutrien yang membekalkan kalsium, protein dan vitamin penting.\nIa merupakan asas kepada banyak diet dan boleh dimakan dalam pelbagai bentuk.</string>
+    <string name="total_calorie">Jumlah Kalori=</string>
+    <string name="breakfast">Sarapan</string>
+    <string name="lunch">Makan Tengahari</string>
+    <string name="dinner">Makan Malam</string>
+    <string name="enter_target">Masukkan peratusan lemak badan sasaran dan berat badan anda.</string>
+    <string name="target_body_fat">Peratusan Lemak Badan Sasaran</string>
+    <string name="target_weight">Berat Sasaran</string>
+    <string name="next">Seterusnya</string>
+    <string name="search">Cari</string>
+    <string name="customizing_recipes">Sila tunggu, kami sedang menyesuaikan Resepi Disyorkan untuk anda.</string>
+    <string name="default_language">Inggeris</string>
+    <string name="chinese">Bahasa Mandarin</string>
+    <string name="malay">Bahasa Melayu</string>
+    <string name="hindi">Bahasa Hindi</string>
+    <string name="change_language">Tukar Bahasa</string>
+    <string name="height">Tinggi</string>
+    <string name="weight">Berat</string>
+    <string name="genderL">Jantina</string>
+    <string name="FOOD_1">MAKANAN 1</string>
+    <string name="Weight_g">Berat (g)</string>
+    <string name="days_of_week">\t Ahad     \tIsnin     \tSelasa       \tRabu       \tKhamis       \tJumaat      \tSabtu#    </string>
+    <string name="weekly_recipe">Resepi Mingguan</string>
+
+
+</resources>

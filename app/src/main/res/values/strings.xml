@@ -1,0 +1,288 @@
+<resources>
+    <string name="app_name">Fitness App</string>
+    <string-array name="time_frames">
+        <item>Select</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string-array name="cardio_exercise_types">
+        <item>Select exercise</item>
+        <item>Walk</item>
+        <item>Run</item>
+        <item>Swim</item>
+        <item>Cycle</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="weight_exercise_types">
+        <item>Select exercise</item>
+        <item>Workout</item>
+        <item>Weight-Lift</item>
+        <item>WeightTrainingOthers</item>
+    </string-array>
+
+    <string-array name="exercise_duration">
+        <item>1 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>45 min</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hour</item>
+        <item>5 hours</item>
+        <item>6 hours</item>
+        <item>7 hour</item>
+        <item>8 hours</item>
+        <item>9 hours</item>
+        <item>10 hour</item>
+    </string-array>
+
+    <string-array name="exercise_distance">
+        <item>1 km</item>
+        <item>2 km</item>
+        <item>3 km</item>
+        <item>4 km</item>
+        <item>5 km</item>
+        <item>6 km</item>
+        <item>7 km</item>
+        <item>8 km</item>
+        <item>9 km</item>
+        <item>10 km</item>
+        <item>11 km</item>
+        <item>12 km</item>
+        <item>13 km</item>
+        <item>14 km</item>
+        <item>15 km</item>
+        <item>16 km</item>
+        <item>17 km</item>
+        <item>18 km</item>
+        <item>19 km</item>
+        <item>20 km</item>
+    </string-array>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="Home">Home</string>
+    <string name="Profile">Profile</string>
+    <string name="welcome">Welcome to the Fitjourney applications</string>
+    <string name="go_to_profile">Go to Profile</string>
+    <string name="confirm">Confirm</string>
+    <string name="hi_welcome">HI, WELCOME</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="about_us">About Us</string>
+    <string name="tracker">Tracker</string>
+    <string name="mood_tracker">Mood Tracker</string>
+    <string name="workout_tracker">Workout Tracker</string>
+    <string name="wellness_tracker">Wellness Tracker</string>
+    <string name="get_started">Get Started</string>
+    <string name="check_health_status">Check Your Health Status</string>
+    <string name="take_a_break">Take a break</string>
+    <string name="ready_for_new_wins">Ready for new\nwins?</string>
+    <string name="sick">Sick</string>
+    <string name="recommended_recipe">Recommended Recipe</string>
+    <string name="fuel_your_fitness">Fuel your fitness with this\npower-packed, protein-rich\nrecipe for peak performance!</string>
+    <string name="save">Save</string>
+    <string name="injured">Injured</string>
+    <string name="hi_user">Hi, User!</string>
+    <string name="active">Active</string>
+    <string name="crush_it">Crush it.</string>
+    <string name="last_updated">Last Updated: Loading...</string>
+    <string name="about_me">About Me</string>
+    <string name="user_name">User Name</string>
+    <string name="my_mood">My Mood</string>
+    <string name="my_wellness">My Wellness</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_workout">My Workout</string>
+    <string name="settings">Settings</string>
+    <string name="support_us">Support Us</string>
+    <string name="language">Language</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="profile_title">My Profile</string>
+    <string name="enter_gender">Enter Gender</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_weight">Enter Weight (kg)</string>
+    <string name="enter_year_of_birth">Enter Year of Birth</string>
+    <string name="enter_height">Enter Height (cm)</string>
+    <string name="save_button">Save</string>
+    <string name="saved_details">Your saved details will appear here</string>
+    <string name="update_user_profile">Update User Profile</string>
+    <string name="achieved_goal">You have achieved your goal!</string>
+    <string name="congrats">Congrats!</string>
+    <string name="todays_goal_ml">Today\'s Goal (ml):</string>
+    <string name="enter_goal">Enter your goal</string>
+    <string name="add">ADD</string>
+    <string name="close">x</string>
+    <string name="todays_goal_steps">Today\'s Goal (steps):</string>
+    <string name="enter_hydration">Enter your hydration intake (ml)</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="calculate">Calculate</string>
+    <string name="bmi_result">Your BMI is ....</string>
+    <string name="bmi_category">which is</string>
+    <string name="bmi_underweight">which is underweight.</string>
+    <string name="bmi_normal">which is normal.</string>
+    <string name="bmi_overweight">which is overweight.</string>
+    <string name="bmi_obese">which is obese.</string>
+    <string name="bmi_value">0.0</string>
+    <string name="bmi_categories">BMI categories:</string>
+    <string name="bmi_fragment">FRAGMENT BMI</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese">Obese</string>
+    <string name="zero">0</string>
+    <string name="time_placeholder">00:00</string>
+    <string name="inhale">INHALE</string>
+    <string name="exhale">EXHALE</string>
+    <string name="breathing_exercise_478">4-7-8\nBreathing Exercise</string>
+    <string name="breathing_exercise">Breathing Exercise</string>
+    <string name="exit_confirmation">Are you sure you want to exit this exercise?</string>
+    <string name="great_job">Great job! Take a moment to notice how you feel.</string>
+    <string name="done">Done</string>
+    <string name="height_cm">Height(cm)</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="gender">Male or Female</string>
+    <string name="year_of_birth">Year of Birth</string>
+    <string name="workout_time">Workout Time!</string>
+    <string name="progress_goal">Progress Goal</string>
+    <string name="history">History</string>
+    <string name="log_diary">Log Diary</string>
+    <string name="start_goal">Start Setting Your Goal NOW!</string>
+    <string name="mindfulness_meditation">Mindfulness\nMeditation Exercise</string>
+    <string name="breathing_instructions">In this exercise, you’ll inhale for 4 seconds, hold for 7 seconds, and exhale for 8 seconds. Follow the on-screen countdown.</string>
+    <string name="start">Start</string>
+    <string name="meditation_instructions">In this exercise, close your eyes and focus on your natural breath. Notice each inhale and exhale. If thoughts arise, gently return to your breath without judgment. Just be present.</string>
+    <string name="summary">See Summary</string>
+    <string name="history_summary">History - Summary</string>
+    <string name="cardio_exercise">Cardio Type Exercise</string>
+    <string name="weight_training_exercise">Weight Training Type Exercise</string>
+    <string name="run">Run</string>
+    <string name="walk">Walk</string>
+    <string name="cycle">Cycle</string>
+    <string name="swim">Swim</string>
+    <string name="others">Others</string>
+    <string name="workout">Workout</string>
+    <string name="weight_lift">Weight-lift</string>
+    <string name="back">Back</string>
+    <string name="distance_placeholder">0 km</string>
+    <string name="duration_placeholder">0 min</string>
+    <string name="weekdays">      Sun     Mon      Tue    Wed     Thu       Fri        Sat</string>
+    <string name="Mon">MON</string>
+    <string name="Tue">TUE</string>
+    <string name="Wed">WED</string>
+    <string name="Thu">THU</string>
+    <string name="Fri">FRI</string>
+    <string name="Sat">SAT</string>
+    <string name="Sun">SUN</string>
+    <string name="Food_Encyclopedia">Food Encyclopedia</string>
+    <string name="Calorie_Calculator">Calorie Calculator</string>
+    <string name="feeling">Feeling</string>
+    <string name="excited">Excited</string>
+    <string name="happy">Happy</string>
+    <string name="sad">Sad</string>
+    <string name="neutral">Neutral</string>
+    <string name="anxious">Anxious</string>
+    <string name="angry">Angry</string>
+    <string name="mindfulness">Mindfulness Exercises</string>
+    <string name="journal">Journal</string>
+    <string name="hydration_history">Hydration History</string>
+    <string name="hydration_tracker">Hydration Tracker</string>
+    <string name="goal">Goal:</string>
+    <string name="record">Record:</string>
+    <string name="history_caps">HISTORY</string>
+    <string name="photo_of_day">Photo of the Day</string>
+    <string name="date">Date</string>
+    <string name="example_date">1 DECEMBER 2024</string>
+    <string name="weather">Weather</string>
+    <string name="note">Note</string>
+    <string name="type">Type</string>
+    <string name="duration">Duration</string>
+    <string name="daily_log">Daily Log</string>
+    <string name="update">Update</string>
+    <string name="distance">Distance</string>
+    <string name="fitness_goal">Set Your Fitness Goal</string>
+    <string name="time_frame">Time Frame</string>
+    <string name="set_goal">Set Your Goal</string>
+    <string name="feeling_today">How are you feeling today?</string>
+    <string name="step_history">Step History</string>
+    <string name="age">years old</string>
+    <string name="user_height">UserHeight</string>
+    <string name="user_weight">UserWeight</string>
+    <string name="user_gender">UserGender</string>
+    <string name="user_birth">UserBirth</string>
+    <string name="edit">Edit</string>
+    <string name="hold">HOLD</string>
+    <string name="exercise_type">Exercise Type</string>
+    <string name="attributes">Attributes</string>
+    <string name="cardio_attributes">Exercise Type: Cardio</string>
+    <string name="attributes_km">Attributes: 5 km</string>
+    <string name="timestamp">Timestamp</string>
+    <string name="quantity">Quantity</string>
+    <string name="welcome_text">HI, WELCOME</string>
+    <string name="save_button_text">Save</string>
+    <string name="name_input_hint">Enter your name</string>
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="step_tracking">Step Tracking</string>
+    <string name="calories_burned">Calories Burned</string>
+    <string name="stop">Stop</string>
+    <string name="steps">Steps</string>
+    <string name="km">km</string>
+    <string name="meditation_exercise">Meditation Exercise</string>
+    <string name="T3_min">3 min</string>
+    <string name="T5_min">5 min</string>
+    <string name="T1_min">1 min</string>
+    <string name="T15_min">15 min</string>
+    <string name="T25_min">25 min</string>
+    <string name="years_old">Years old</string>
+    <string name="cardio_exercise_aero">Cardio/Aerobic Type Exercise</string>
+    <string name="weight_exercise_training">Weight-Training Type Exercise</string>
+    <string name="hydration_intake">Enter your hydration intake (ml)</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="date_2023">Date: 2023-01-01</string>
+    <string name="privacy_policy_content">At Tracker, we prioritize your privacy by protecting your personal information and explaining our practices clearly. We collect data like personal details, health metrics, location (if enabled), and device information to improve our services, personalize your experience, and track your fitness progress. We may share information with trusted third-party providers to enhance app functionality, and we only disclose data as legally required. We implement strong security measures to protect your data but note that no online system is entirely secure. You can access, update, or delete your data, and manage notification preferences within the app. Our app is not intended for children under 13, and we retain data only as needed. Updates to this policy will be communicated through the app, and you can reach us with any questions at tracker@gmail.com</string>
+    <string name="default_privacy_policy" translatable="false">POLICY PRIVACY</string>
+    <string name="egg_name">Egg</string>
+    <string name="bread_name">Bread</string>
+    <string name="orangejuice_name">Orange Juice</string>
+    <string name="shrimp_name">Shrimp</string>
+    <string name="vegetables_name">Stir-fried vegetables</string>
+    <string name="chicken_name">Chicken breast</string>
+    <string name="sweetpotato_name">Purple sweet potato</string>
+    <string name="rice_name">Rice</string>
+    <string name="milk_name">milk</string>
+    <string name="egg">\t\t\t\tSimple Introduction to Eggs\nEggs are a versatile and nutrient-rich food that almost everyone enjoys.\nThey\'re not only delicious but also incredibly good for you.</string>
+    <string name="bread">\t\t\t\tSimple Introduction to Bread\nBread is a staple food prepared from a dough of flour and water, usually by baking.\nIt is versatile and provides energy to power your day.</string>
+    <string name="orange_juice">\t\t\t\tSimple Introduction to Orange Juice\nOrange juice is a refreshing drink packed with vitamin C and other essential nutrients.\nIt is a great way to start your day with energy and health.</string>
+    <string name="shrimp">\t\t\t\tSimple Introduction to Shrimp\nShrimp are a type of seafood that are low in calories and rich in protein.\nThey are a popular ingredient in many cuisines around the world.</string>
+    <string name="vegetables">\t\t\t\tSimple Introduction to Vegetables\nVegetables are a vital part of a healthy diet, providing vitamins, minerals, and fiber.\nIncorporating vegetables into meals is key to balanced nutrition.</string>
+    <string name="chicken">\t\t\t\tSimple Introduction to Chicken\nChicken is a lean source of protein that is both delicious and versatile.\nIt can be prepared in countless ways to suit any cuisine.</string>
+    <string name="sweet_potato">\t\t\t\tSimple Introduction to Purple Sweet Potato\nPurple sweet potatoes are not only vibrant in color but also rich in antioxidants and nutrients.\nThey are a great option for a nutritious and satisfying meal.</string>
+    <string name="rice">\t\t\t\tSimple Introduction to Rice\nRice is a staple food consumed worldwide and is an excellent source of carbohydrates.\nIt is versatile and can be paired with various dishes.</string>
+    <string name="milk">\t\t\t\tSimple Introduction to Milk\nMilk is a nutrient-rich liquid that provides calcium, protein, and essential vitamins.\nIt is a cornerstone of many diets and can be consumed in various forms.</string>
+    <string name="total_calorie">Total Calorie=</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="enter_target">Enter your target body fat percentage and weight.</string>
+    <string name="target_body_fat">Target body fat percentage</string>
+    <string name="target_weight">Target weight</string>
+    <string name="next">Next</string>
+    <string name="customizing_recipes">Please wait, we are customizing Recommended Recipes for you.</string>
+    <string name="search">Search</string>
+    <string name="default_language">English</string>
+    <string name="chinese">Chinese</string>
+    <string name="malay">Malay</string>
+    <string name="hindi">Hindi</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="genderL">Gender</string>
+    <string name="FOOD_1">FOOD 1</string>
+    <string name="Weight_g">Weight (g)</string>
+    <string name="days_of_week">\t \t Sun     \t \t Mon     \t\tTue       \t Wed       \t\t Thu       \t\tFri      \t\t\tSat    </string>
+    <string name="change_language">Change Language</string>
+    <string name="weekly_recipe">Weekly Recipe</string>
+
+</resources>

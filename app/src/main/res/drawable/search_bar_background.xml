@@ -1,0 +1,20 @@
+<!-- res/drawable/search_bar_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 设置圆角半径 -->
+    <corners android:radius="8dp" />
+
+    <!-- 设置边框颜色和宽度 -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/color_fda341" /> <!-- 灰色边框 -->
+
+    <!-- 设置背景填充颜色 -->
+    <solid android:color="@android:color/transparent" /> <!-- 白色背景 -->
+
+    <!-- 设置内边距 -->
+    <padding
+        android:left="16dp"
+        android:right="16dp"
+        android:top="8dp"
+        android:bottom="8dp" />
+</shape>

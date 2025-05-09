@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+    <ImageView
+        android:id="@+id/delete_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:src="@mipmap/icon_delete"
+        android:contentDescription="Delete Item"
+        android:onClick="onDeleteClicked" />
+
+    <ImageView
+        android:id="@+id/add_button"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@mipmap/icon_add"
+        android:contentDescription="Add Item"
+        android:onClick="onAddClicked" />
+    <EditText
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:hint="FOOD 1"
+        android:background="@drawable/shapre_orange"
+        android:textColorHint="@color/white"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:layout_marginEnd="16dp" />
+
+    <EditText
+        android:id="@+id/tv_weight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:background="@drawable/shapre_orange"
+        android:hint="Weight (g)"
+        android:layout_weight="1"
+        android:layout_marginEnd="16dp" />
+
+
+</LinearLayout>

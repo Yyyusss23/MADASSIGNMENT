@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_user_bottom"
+    app:startDestination="@id/userHomeFragment2">
+
+    <fragment
+        android:id="@+id/userHomeFragment2"
+        android:name="com.example.madassignment4.UserModule.UserHomeFragment"
+        android:label="fragment_user_home"
+        tools:layout="@layout/fragment_user_home" >
+        <action
+            android:id="@+id/action_userHomeFragment2_to_foodActivity"
+            app:destination="@id/foodActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/trackerMain3"
+        android:name="com.example.madassignment4.TrackerMain"
+        android:label="fragment_tracker_main"
+        tools:layout="@layout/fragment_tracker_main" >
+        <action
+            android:id="@+id/action_trackerMain3_to_dailyWellnessMain3"
+            app:destination="@id/dailyWellnessMain3" />
+        <action
+            android:id="@+id/action_trackerMain3_to_exerciseHomeFragment3"
+            app:destination="@id/exerciseHomeFragment3" />
+        <action
+            android:id="@+id/action_trackerMain3_to_home3"
+            app:destination="@id/home3" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.madassignment4.UserModule.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_userProfileFragment"
+            app:destination="@id/userProfileFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_home3"
+            app:destination="@id/home3" />
+        <action
+            android:id="@+id/action_profileFragment_to_exerciseHomeFragment3"
+            app:destination="@id/exerciseHomeFragment3" />
+        <action
+            android:id="@+id/action_profileFragment_to_dailyWellnessMain3"
+            app:destination="@id/dailyWellnessMain3" />
+        <action
+            android:id="@+id/action_profileFragment_to_privacyPolicy"
+            app:destination="@id/privacyPolicy" />
+        <action
+            android:id="@+id/action_profileFragment_to_languageFragment"
+            app:destination="@id/languageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dailyWellnessMain3"
+        android:name="com.example.madassignment4.DailyWellnessModule.DailyWellnessMain"
+        android:label="fragment_daily_wellness_main"
+        tools:layout="@layout/fragment_daily_wellness_main" >
+        <action
+            android:id="@+id/action_dailyWellnessMain3_to_hydrationTracking"
+            app:destination="@id/hydrationTracking" />
+        <action
+            android:id="@+id/action_dailyWellnessMain3_to_stepTracking"
+            app:destination="@id/stepTracking" />
+        <action
+            android:id="@+id/action_dailyWellnessMain3_to_bmiCalculator"
+            app:destination="@id/bmiCalculator" />
+        <action
+            android:id="@+id/action_dailyWellnessMain3_to_trackerMain3"
+            app:destination="@id/trackerMain3" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseHomeFragment3"
+        android:name="com.example.madassignment4.ExerciseModule.ExerciseHomeFragment"
+        android:label="fragment_exercise_home"
+        tools:layout="@layout/fragment_exercise_home" >
+        <action
+            android:id="@+id/action_exerciseHomeFragment3_to_progressGoalFragment2"
+            app:destination="@id/progressGoalFragment2" />
+        <action
+            android:id="@+id/action_exerciseHomeFragment3_to_historyFragment2"
+            app:destination="@id/historyFragment2" />
+        <action
+            android:id="@+id/action_exerciseHomeFragment3_to_logFragment2"
+            app:destination="@id/logFragment2" />
+        <action
+            android:id="@+id/action_exerciseHomeFragment3_to_trackerMain3"
+            app:destination="@id/trackerMain3" />
+    </fragment>
+    <fragment
+        android:id="@+id/home3"
+        android:name="com.example.madassignment4.MoodModule.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home3_to_selectMood"
+            app:destination="@id/selectMood" />
+        <action
+            android:id="@+id/action_home3_to_mindfulnessExercise"
+            app:destination="@id/mindfulnessExercise" />
+        <action
+            android:id="@+id/action_home3_to_journal"
+            app:destination="@id/journal" />
+        <action
+            android:id="@+id/action_home3_to_trackerMain3"
+            app:destination="@id/trackerMain3" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectMood"
+        android:name="com.example.madassignment4.MoodModule.SelectMood"
+        android:label="fragment_select_mood"
+        tools:layout="@layout/fragment_select_mood" >
+        <action
+            android:id="@+id/action_selectMood_to_home3"
+            app:destination="@id/home3" />
+    </fragment>
+    <fragment
+        android:id="@+id/journal"
+        android:name="com.example.madassignment4.MoodModule.Journal"
+        android:label="fragment_journal"
+        tools:layout="@layout/fragment_journal" >
+        <action
+            android:id="@+id/action_journal_to_home3"
+            app:destination="@id/home3" />
+    </fragment>
+    <fragment
+        android:id="@+id/breathingExercise2"
+        android:name="com.example.madassignment4.MoodModule.BreathingExercise"
+        android:label="fragment_breathing_exercise"
+        tools:layout="@layout/fragment_breathing_exercise" />
+    <fragment
+        android:id="@+id/meditationExercise2"
+        android:name="com.example.madassignment4.MoodModule.MeditationExercise"
+        android:label="fragment_meditation_exercise"
+        tools:layout="@layout/fragment_meditation_exercise" />
+    <fragment
+        android:id="@+id/mindfulnessExercise"
+        android:name="com.example.madassignment4.MoodModule.MindfulnessExercise"
+        android:label="fragment_mindfulness_exercise"
+        tools:layout="@layout/fragment_mindfulness_exercise" >
+        <action
+            android:id="@+id/action_mindfulnessExercise_to_home3"
+            app:destination="@id/home3" />
+    </fragment>
+    <fragment
+        android:id="@+id/progressGoalFragment2"
+        android:name="com.example.madassignment4.ExerciseModule.ProgressGoalFragment"
+        android:label="fragment_progress_goal"
+        tools:layout="@layout/fragment_progress_goal" >
+        <action
+            android:id="@+id/action_progressGoalFragment2_to_exerciseHomeFragment3"
+            app:destination="@id/exerciseHomeFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment2"
+        android:name="com.example.madassignment4.ExerciseModule.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_historyFragment2_to_historySummaryFragment2"
+            app:destination="@id/historySummaryFragment2" />
+        <action
+            android:id="@+id/action_historyFragment2_to_exerciseHomeFragment3"
+            app:destination="@id/exerciseHomeFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/logFragment2"
+        android:name="com.example.madassignment4.ExerciseModule.LogFragment"
+        android:label="fragment_log"
+        tools:layout="@layout/fragment_log" >
+        <action
+            android:id="@+id/action_logFragment2_to_exerciseHomeFragment3"
+            app:destination="@id/exerciseHomeFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/historySummaryFragment2"
+        android:name="com.example.madassignment4.ExerciseModule.HistorySummaryFragment"
+        android:label="fragment_history_summary"
+        tools:layout="@layout/fragment_history_summary" />
+    <fragment
+        android:id="@+id/bmiCalculator"
+        android:name="com.example.madassignment4.DailyWellnessModule.bmiCalculator"
+        android:label="fragment_bmi_calculator"
+        tools:layout="@layout/fragment_bmi_calculator" >
+        <action
+            android:id="@+id/action_bmiCalculator_to_dailyWellnessMain3"
+            app:destination="@id/dailyWellnessMain3" />
+    </fragment>
+    <fragment
+        android:id="@+id/hydrationTracking"
+        android:name="com.example.madassignment4.DailyWellnessModule.HydrationTracking"
+        android:label="fragment_hydration_tracking"
+        tools:layout="@layout/fragment_hydration_tracking" >
+        <action
+            android:id="@+id/action_hydrationTracking_to_hydrationHistory2"
+            app:destination="@id/hydrationHistory2" />
+        <action
+            android:id="@+id/action_hydrationTracking_to_dailyWellnessMain3"
+            app:destination="@id/dailyWellnessMain3" />
+    </fragment>
+    <fragment
+        android:id="@+id/stepTracking"
+        android:name="com.example.madassignment4.DailyWellnessModule.StepTracking"
+        android:label="fragment_step_tracking"
+        tools:layout="@layout/fragment_step_tracking" >
+        <action
+            android:id="@+id/action_stepTracking_to_stepHistory2"
+            app:destination="@id/stepHistory2" />
+        <action
+            android:id="@+id/action_stepTracking_to_dailyWellnessMain3"
+            app:destination="@id/dailyWellnessMain3" />
+    </fragment>
+    <fragment
+        android:id="@+id/hydrationHistory2"
+        android:name="com.example.madassignment4.DailyWellnessModule.HydrationHistory"
+        android:label="HydrationHistory" >
+        <action
+            android:id="@+id/action_hydrationHistory2_to_hydrationTracking"
+            app:destination="@id/hydrationTracking" />
+    </fragment>
+    <fragment
+        android:id="@+id/stepHistory2"
+        android:name="com.example.madassignment4.DailyWellnessModule.StepHistory"
+        android:label="StepHistory" >
+        <action
+            android:id="@+id/action_stepHistory2_to_stepTracking"
+            app:destination="@id/stepTracking" />
+    </fragment>
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.example.madassignment4.UserModule.UserProfileFragment"
+        android:label="fragment_user_profile"
+        tools:layout="@layout/fragment_user_profile" >
+        <action
+            android:id="@+id/action_userProfileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.madassignment4.UserModule.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" >
+        <action
+            android:id="@+id/action_editProfileFragment_to_userProfileFragment"
+            app:destination="@id/userProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/privacyPolicy"
+        android:name="com.example.madassignment4.UserModule.PrivacyPolicy"
+        android:label="fragment_privacy_policy"
+        tools:layout="@layout/fragment_privacy_policy" />
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.example.madassignment4.UserModule.LanguageFragment"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language" />
+    <activity
+        android:id="@+id/foodActivity"
+        android:name="com.example.madassignment4.FoodModule.FoodActivity"
+        android:label="activity_food"
+        tools:layout="@layout/activity_food" />
+</navigation>

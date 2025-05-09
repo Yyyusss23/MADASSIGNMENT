@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff0e1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="220dp"
+            android:src="@mipmap/girl"
+
+            />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:src="@mipmap/chat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:text="@string/enter_target"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/color_fda341"
+                android:textSize="12sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="150dp"
+        android:src="@mipmap/road" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="130dp"
+        android:src="@mipmap/goals" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/target_body_fat"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/color_fda341"
+            android:textSize="15sp" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:paddingStart="20dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shapre_orange"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="350dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/target_weight"
+            android:textColor="@color/color_fda341"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="15sp" />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shapre_orange"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_next"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/shapre_orange"
+        android:gravity="center"
+        android:text="@string/next"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+</FrameLayout>

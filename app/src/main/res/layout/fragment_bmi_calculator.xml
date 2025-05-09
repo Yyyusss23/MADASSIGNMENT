@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff0e1"
+    tools:context=".DailyWellnessModule.bmiCalculator">
+
+    <TextView
+        android:id="@+id/HydrationTrackerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/bmi_calculator"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/back_btn"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ETHeight"
+        android:layout_width="271dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="@string/enter_height"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HydrationTrackerTitle" />
+
+    <EditText
+        android:id="@+id/ETWeight"
+        android:layout_width="271dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="@string/enter_weight"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/ETHeight"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ETHeight"
+        app:layout_constraintTop_toBottomOf="@+id/ETHeight" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnCalculate"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/calculate"
+        app:layout_constraintEnd_toEndOf="@+id/ETWeight"
+        app:layout_constraintStart_toStartOf="@+id/ETWeight"
+        app:layout_constraintTop_toBottomOf="@+id/ETWeight" />
+
+    <TextView
+        android:id="@+id/YourBmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/bmi_result"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnCalculate" />
+
+    <TextView
+        android:id="@+id/ResultBMICategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/bmi_category"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/YourBmi"
+        app:layout_constraintTop_toBottomOf="@+id/YourBmi" />
+
+    <TextView
+        android:id="@+id/ResultBMI"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="0.0"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="52sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/YourBmi" />
+
+    <TextView
+        android:id="@+id/BMICategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/bmi_categories"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/ResultBMICategory"
+        app:layout_constraintTop_toBottomOf="@+id/ResultBMICategory" />
+
+    <ImageView
+        android:id="@+id/BMICategoriesTable"
+        android:layout_width="300dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BMICategories"
+        app:srcCompat="@drawable/bmi_categories_table" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="128dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="12dp"
+        android:background="#FFF0E1"
+        android:text="@string/underweight"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/BMICategoriesTable"
+        app:layout_constraintTop_toTopOf="@+id/BMICategoriesTable" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="128dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="4dp"
+        android:background="#FFF0E1"
+        android:text="@string/overweight"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="128dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="3dp"
+        android:background="#FFF0E1"
+        android:text="@string/normal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="128dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="4dp"
+        android:background="#FFF0E1"
+        android:text="@string/obese"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

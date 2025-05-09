@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#00FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#00FFFFFF">
+
+        <ImageView
+            android:id="@+id/exercisetwo_bg"
+            android:layout_width="321dp"
+            android:layout_height="429dp"
+            android:src="@drawable/noticetwo_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/mtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/mindfulness_meditation"
+            android:textAlignment="center"
+            android:textColor="#f37d20"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/exercisetwo_bg"
+            app:layout_constraintStart_toStartOf="@+id/exercisetwo_bg"
+            app:layout_constraintTop_toTopOf="@+id/exercisetwo_bg" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/meditation_instructions"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/exercisetwo_bg"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/exercisetwo_bg"
+            app:layout_constraintTop_toBottomOf="@+id/mtv" />
+
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FFB770"
+            android:fontFamily="@font/poppins_bold"
+            android:padding="2dp"
+            android:text="@string/start"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/exercisetwo_bg"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/exercisetwo_bg"
+            app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+        <ImageButton
+            android:id="@+id/exit_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/exit_btn"
+            app:layout_constraintEnd_toEndOf="@+id/exercisetwo_bg"
+            app:layout_constraintTop_toTopOf="@+id/exercisetwo_bg" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

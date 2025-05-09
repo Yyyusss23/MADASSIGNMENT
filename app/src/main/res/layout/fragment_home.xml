@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff0e1"
+    tools:context=".MoodModule.Home">
+
+    <TextView
+        android:id="@+id/MoodTracker_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/mood_tracker"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/calendar_bg"
+        android:layout_width="0dp"
+        android:layout_height="372dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/MoodTracker_tv"
+        app:srcCompat="@drawable/calendar_bk" />
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/calendar_bg" />
+
+
+    <ImageView
+        android:id="@+id/smallbox_iv"
+        android:layout_width="0dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toStartOf="@id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/calendar_bg"
+        app:srcCompat="@drawable/smallbox" />
+
+    <TextView
+        android:id="@+id/Feeling_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/feeling"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/smallbox_iv"
+        app:layout_constraintTop_toTopOf="@+id/smallbox_iv" />
+
+    <ImageButton
+        android:id="@+id/feelingAdd_btn"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/smallbox_iv"
+        app:layout_constraintEnd_toEndOf="@+id/smallbox_iv"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/smallbox_iv"
+        app:srcCompat="@drawable/m_add_btn" />
+
+    <ImageView
+        android:id="@+id/smallbox_iv2"
+        android:layout_width="0dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/smallbox_iv"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toEndOf="@id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/smallbox_iv"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/smallbox" />
+
+    <ImageButton
+        android:id="@+id/mindfulness_btn"
+        android:layout_width="128dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="@+id/smallbox_iv2"
+        app:layout_constraintTop_toTopOf="@+id/smallbox_iv2"
+        app:srcCompat="@drawable/meditation_stk" />
+
+    <TextView
+        android:id="@+id/MindfulnessExercises_tv"
+        android:layout_width="107dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/mindfulness"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/smallbox_iv2"
+        app:layout_constraintTop_toTopOf="@+id/smallbox_iv2" />
+
+    <ImageView
+        android:id="@+id/bigbox_iv"
+        android:layout_width="0dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/smallbox_iv"
+        app:srcCompat="@drawable/bigbox" />
+
+    <TextView
+        android:id="@+id/Journal_tv"
+        android:layout_width="66dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/journal"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/bigbox_iv"
+        app:layout_constraintTop_toTopOf="@+id/bigbox_iv" />
+
+    <ImageButton
+        android:id="@+id/journalAdd_btn"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/bigbox_iv"
+        app:layout_constraintEnd_toEndOf="@+id/bigbox_iv"
+        app:layout_constraintStart_toStartOf="@+id/bigbox_iv"
+        app:srcCompat="@drawable/m_add_btn" />
+
+    <ImageView
+        android:id="@+id/defaultemoji"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/transparentsquare"
+        app:layout_constraintBottom_toBottomOf="@+id/smallbox_iv"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/smallbox_iv"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="@+id/smallbox_iv" />
+
+    <ImageView
+        android:id="@+id/defaultphoto"
+        android:layout_width="231dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/transparentrectangle"
+        app:layout_constraintBottom_toBottomOf="@+id/bigbox_iv"
+        app:layout_constraintEnd_toEndOf="@+id/bigbox_iv"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/bigbox_iv"
+        app:layout_constraintTop_toBottomOf="@+id/Journal_tv" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <ImageButton
+        android:id="@+id/homeback_btn"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/m_back_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

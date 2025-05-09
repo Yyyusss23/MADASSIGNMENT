@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time_frames">
+        <item>选择</item>
+        <item>每天</item>
+        <item>每周</item>
+        <item>每月</item>
+    </string-array>
+
+    <string-array name="cardio_exercise_types">
+        <item>选择运动</item>
+        <item>步行</item>
+        <item>跑步</item>
+        <item>游泳</item>
+        <item>骑车</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="weight_exercise_types">
+        <item>选择运动</item>
+        <item>锻炼</item>
+        <item>举重</item>
+        <item>其他力量训练</item>
+    </string-array>
+
+    <string-array name="exercise_duration">
+        <item>1 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>15 分钟</item>
+        <item>30 分钟</item>
+        <item>45 分钟</item>
+        <item>1 小时</item>
+        <item>2 小时</item>
+        <item>3 小时</item>
+        <item>4 小时</item>
+        <item>5 小时</item>
+        <item>6 小时</item>
+        <item>7 小时</item>
+        <item>8 小时</item>
+        <item>9 小时</item>
+        <item>10 小时</item>
+    </string-array>
+
+    <string-array name="exercise_distance">
+        <item>1 公里</item>
+        <item>2 公里</item>
+        <item>3 公里</item>
+        <item>4 公里</item>
+        <item>5 公里</item>
+        <item>6 公里</item>
+        <item>7 公里</item>
+        <item>8 公里</item>
+        <item>9 公里</item>
+        <item>10 公里</item>
+        <item>11 公里</item>
+        <item>12 公里</item>
+        <item>13 公里</item>
+        <item>14 公里</item>
+        <item>15 公里</item>
+        <item>16 公里</item>
+        <item>17 公里</item>
+        <item>18 公里</item>
+        <item>19 公里</item>
+        <item>20 公里</item>
+    </string-array>
+    <string name="app_name">Fitness App</string>
+    <string name="egg_name">鸡蛋</string>
+    <string name="bread_name">面包</string>
+    <string name="orangejuice_name">橙汁</string>
+    <string name="shrimp_name">虾</string>
+    <string name="vegetables_name">炒蔬菜</string>
+    <string name="chicken_name">鸡胸肉</string>
+    <string name="sweetpotato_name">紫薯</string>
+    <string name="rice_name">米饭</string>
+    <string name="milk_name">牛奶</string>
+    <string name="welcome" >欢迎使用 Fitjourney 应用程序</string>
+    <string name="Home">主页</string>
+    <string name="Profile">账户</string>
+    <string name="Mon">一</string>
+    <string name="Tue">二</string>
+    <string name="Wed">三</string>
+    <string name="Thu">四</string>
+    <string name="Fri">五</string>
+    <string name="Sat">六</string>
+    <string name="Sun">日</string>
+    <string name="Food_Encyclopedia">美食百科</string>
+    <string name="Calorie_Calculator">卡路里计算器</string>
+    <string name="go_to_profile">转到个人资料</string>
+    <string name="confirm">确认</string>
+    <string name="hi_welcome">你好，欢迎</string>
+    <string name="enter_name">输入您的名字</string>
+    <string name="about_us">关于我们</string>
+    <string name="tracker">跟踪器</string>
+    <string name="mood_tracker">心情跟踪器</string>
+    <string name="workout_tracker">锻炼跟踪器</string>
+    <string name="wellness_tracker">健康跟踪器</string>
+    <string name="get_started">开始</string>
+    <string name="check_health_status">检查您的健康状况</string>
+    <string name="take_a_break">休息一下</string>
+    <string name="ready_for_new_wins">准备迎接新胜利了吗？</string>
+    <string name="sick">生病</string>
+    <string name="recommended_recipe">推荐食谱</string>
+    <string name="fuel_your_fitness">用这个\n高能量、高蛋白的\n食谱为您的健身加油！</string>
+    <string name="save">保存</string>
+    <string name="injured">受伤</string>
+    <string name="hi_user">嗨，用户！</string>
+    <string name="active">活跃</string>
+    <string name="crush_it">打破它。</string>
+    <string name="welcome_text">你好，欢迎</string>
+    <string name="save_button_text">保存</string>
+    <string name="name_input_hint">输入你的名字</string>
+    <string name="privacy_policy_title">隐私政策</string>
+    <string name="privacy_policy_content">在 Tracker，我们通过保护您的个人信息并清楚地解释我们的做法，优先保护您的隐私。我们收集数据，如个人详细信息、健康指标、位置（如果启用）和设备信息，以改善我们的服务、个性化您的体验和跟踪您的健康进度。我们可能会与受信任的第三方提供商共享信息，以增强应用程序功能，并且我们仅在法律要求的情况下披露数据。我们实施强大的安全措施来保护您的数据，但请注意，没有任何在线系统是完全安全的。您可以在应用程序中访问、更新或删除您的数据，并管理通知偏好。我们的应用程序不适用于 13 岁以下的儿童，我们仅在需要时保留数据。此政策的更新将通过应用程序进行传达，您可以通过 tracker@gmail.com 联系我们以获取任何问题。</string>
+    <string name="last_updated">最后更新：加载中...</string>
+    <string name="about_me">关于我</string>
+    <string name="my_mood">我的心情</string>
+    <string name="my_wellness">我的健康</string>
+    <string name="my_profile">我的资料</string>
+    <string name="my_workout">我的锻炼</string>
+    <string name="settings">设置</string>
+    <string name="support_us">支持我们</string>
+    <string name="language">语言</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="profile_title">我的资料</string>
+    <string name="user_name">用户名</string>
+    <string name="enter_gender">输入性别</string>
+    <string name="enter_age">输入年龄</string>
+    <string name="enter_weight">输入体重 (公斤)</string>
+    <string name="enter_year_of_birth">输入出生年份</string>
+    <string name="enter_height">输入身高 (厘米)</string>
+    <string name="save_button">保存</string>
+    <string name="saved_details">您保存的详细信息将显示在此处</string>
+    <string name="update_user_profile">更新用户资料</string>
+    <string name="achieved_goal">你已达成目标！</string>
+    <string name="congrats">恭喜！</string>
+    <string name="todays_goal_ml">今日目标（毫升）：</string>
+    <string name="enter_goal">输入你的目标</string>
+    <string name="add">添加</string>
+    <string name="close">关闭</string>
+    <string name="todays_goal_steps">今日目标（步数）：</string>
+    <string name="enter_hydration">输入你的饮水量（毫升）</string>
+    <string name="bmi_calculator">BMI计算器</string>
+    <string name="calculate">计算</string>
+    <string name="bmi_result">你的BMI是....</string>
+    <string name="bmi_category">属于</string>
+    <string name="bmi_underweight">属于体重过轻。</string>
+    <string name="bmi_normal">属于体重正常。</string>
+    <string name="bmi_overweight">属于超重。</string>
+    <string name="bmi_obese">属于肥胖。</string>
+    <string name="bmi_value">0.0</string>
+    <string name="bmi_categories">BMI分类：</string>
+    <string name="bmi_fragment">BMI片段</string>
+    <string name="underweight">体重过轻</string>
+    <string name="normal">正常</string>
+    <string name="overweight">超重</string>
+    <string name="obese">肥胖</string>
+    <string name="zero">0</string>
+    <string name="time_placeholder">00:00</string>
+    <string name="inhale">吸气</string>
+    <string name="exhale">呼气</string>
+    <string name="breathing_exercise_478">4-7-8\n呼吸练习</string>
+    <string name="breathing_exercise">呼吸练习</string>
+    <string name="exit_confirmation">确定要退出此练习吗？</string>
+    <string name="great_job">做得好！花点时间感受一下自己的状态。</string>
+    <string name="done">完成</string>
+    <string name="height_cm">身高（厘米）</string>
+    <string name="weight_kg">体重（公斤）</string>
+    <string name="gender">性别：男或女</string>
+    <string name="year_of_birth">出生年份</string>
+    <string name="workout_time">锻炼时间！</string>
+    <string name="progress_goal">进度目标</string>
+    <string name="history">历史记录</string>
+    <string name="log_diary">日志</string>
+    <string name="start_goal">现在开始设定你的目标！</string>
+    <string name="mindfulness_meditation">正念冥想练习</string>
+    <string name="breathing_instructions">在此练习中，您将吸气 4 秒，屏气 7 秒，呼气 8 秒。按照屏幕上的倒计时进行。</string>
+    <string name="start">开始</string>
+    <string name="meditation_instructions">在此练习中，闭上眼睛，专注于自然的呼吸。注意每次吸气和呼气。如果有思绪出现，温柔地将注意力带回呼吸，勿加评判。专注于当下。</string>
+    <string name="summary">查看总结</string>
+    <string name="history_summary">历史记录 - 总结</string>
+    <string name="cardio_exercise">有氧运动类型</string>
+    <string name="weight_training_exercise">力量训练类型</string>
+    <string name="run">跑步</string>
+    <string name="walk">步行</string>
+    <string name="cycle">骑行</string>
+    <string name="swim">游泳</string>
+    <string name="others">其他</string>
+    <string name="workout">锻炼</string>
+    <string name="weight_lift">举重</string>
+    <string name="back">返回</string>
+    <string name="distance_placeholder">0公里</string>
+    <string name="duration_placeholder">0分钟</string>
+    <string name="weekdays">      星期日     星期一      星期二    星期三     星期四       星期五        星期六</string>
+    <string name="feeling">感受</string>
+    <string name="excited">兴奋</string>
+    <string name="happy">开心</string>
+    <string name="sad">难过</string>
+    <string name="neutral">平静</string>
+    <string name="anxious">焦虑</string>
+    <string name="angry">生气</string>
+    <string name="mindfulness">正念练习</string>
+    <string name="journal">日志</string>
+    <string name="hydration_history">饮水历史记录</string>
+    <string name="hydration_tracker">饮水追踪器</string>
+    <string name="goal">目标：</string>
+    <string name="record">记录：</string>
+    <string name="history_caps">历史记录</string>
+    <string name="photo_of_day">今日照片</string>
+    <string name="date">日期</string>
+    <string name="example_date">2024年12月1日</string>
+    <string name="weather">天气</string>
+    <string name="note">备注</string>
+    <string name="type">类型</string>
+    <string name="duration">时长</string>
+    <string name="daily_log">每日日志</string>
+    <string name="update">更新</string>
+    <string name="distance">距离</string>
+    <string name="fitness_goal">设定你的健身目标</string>
+    <string name="time_frame">时间框架</string>
+    <string name="set_goal">设定你的目标</string>
+    <string name="feeling_today">你今天感觉如何？</string>
+    <string name="step_history">步数记录</string>
+    <string name="age">岁</string>
+    <string name="user_height">用户身高</string>
+    <string name="user_weight">用户体重</string>
+    <string name="user_gender">用户性别</string>
+    <string name="user_birth">用户出生年份</string>
+    <string name="edit">编辑</string>
+    <string name="exercise_type">运动类型</string>
+    <string name="attributes">属性</string>
+    <string name="cardio_attributes">运动类型：有氧运动</string>
+    <string name="attributes_km">属性：5公里</string>
+    <string name="timestamp">时间戳</string>
+    <string name="quantity">数量</string>
+    <string name="step_tracking">步数跟踪</string>
+    <string name="calories_burned">卡路里消耗</string>
+    <string name="stop">停止</string>
+    <string name="steps">步数</string>
+    <string name="km">公里</string>
+    <string name="meditation_exercise">冥想练习</string>
+    <string name="hold">保持</string>
+    <string name="T3_min">3 分钟</string>
+    <string name="T5_min">5 分钟</string>
+    <string name="T1_min">1 分钟</string>
+    <string name="T15_min">15 分钟</string>
+    <string name="T25_min">25 分钟</string>
+    <string name="years_old">岁</string>
+    <string name="cardio_exercise_aero">有氧运动类型</string>
+    <string name="weight_exercise_training">重量训练型运动</string>
+    <string name="hydration_intake">输入你的饮水量（毫升）</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="date_2023">日期: 2023-01-01</string>
+    <string name="egg">简单介绍鸡蛋\n鸡蛋是一种多功能且富含营养的食品，几乎每个人都喜欢。\n它们不仅美味，而且对健康非常有益。</string>
+    <string name="bread">\t\t\t\t面包简单介绍\n面包是一种主食，由面粉和水的面团制成，通常通过烘烤制成。\n它用途广泛，为您的一天提供能量。\n\t\t\t \t面包简单介绍\n面包是一种主食，由面粉和水的面团制成，通常通过烘烤制成。\n它用途广泛，可为您的一天提供能量。</string>
+    <string name="orange_juice">\t\t\t\t橙汁简单介绍\n橙汁是一种提神饮料，富含维生素 C 和其他必需营养素。\n这是以能量和健康开始新的一天的好方法。</string>
+    <string name="shrimp">\t\t\t\t虾简单介绍\n虾是一种低热量、富含蛋白质的海鲜。\n是世界各地许多美食中的热门食材。</string>
+    <string name="vegetables">\t\t\t\t蔬菜简单介绍\n蔬菜是健康饮食的重要组成部分，提供维生素、矿物质和纤维。\n在膳食中加入蔬菜是均衡营养的关键。</string>
+    <string name="chicken">\t\t\t\t鸡肉简单介绍\n鸡肉是一种精益蛋白质来源，既美味又用途广泛。\n它可以用无数种方法来烹饪，以适应任何菜肴。</string>
+    <string name="sweet_potato">\t\t\t\t紫薯简单介绍\n紫薯不仅颜色鲜艳，而且富含抗氧化剂和营养成分。\n是营养丰富、饱腹感强的膳食的绝佳选择。</string>
+    <string name="rice">\t\t\t\t大米简单介绍\n大米是全世界人民食用的主食，是碳水化合物的极好来源。\n用途广泛，可搭配各种菜肴。</string>
+    <string name="milk">\t\t\t\t牛奶简单介绍\n牛奶是一种营养丰富的液体，提供钙、蛋白质和必需维生素。\n它是许多饮食的基石，可以以多种形式食用。</string>
+    <string name="total_calorie">总卡路里=</string>
+    <string name="breakfast">早餐</string>
+    <string name="lunch">午餐</string>
+    <string name="dinner">晚餐</string>
+    <string name="enter_target">输入您的目标体脂百分比和体重。</string>
+    <string name="target_body_fat">目标体脂百分比</string>
+    <string name="target_weight">目标体重</string>
+    <string name="next">下一步</string>
+    <string name="search">搜索</string>
+    <string name="customizing_recipes">请稍候，我们正在为您定制推荐食谱。</string>
+    <string name="default_language">英文</string>
+    <string name="chinese">中文</string>
+    <string name="malay">马来语</string>
+    <string name="hindi">印地语</string>
+    <string name="change_language">更换语言</string>
+    <string name="days_of_week">\t \t 日     \t \t 一     \t\t二       \t 三       \t\t 四       \t\t五      \t\t\t六    </string>
+    <string name="height">身高</string>
+    <string name="weight">体重</string>
+    <string name="genderL">性别</string>
+    <string name="FOOD_1">食物 1</string>
+    <string name="Weight_g">重量 (克)</string>
+    <string name="weekly_recipe">每周食谱</string>
+</resources>

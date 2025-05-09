@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SelectMood"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff0e1"
+    tools:context=".MoodModule.SelectMood">
+
+    <ImageButton
+        android:id="@+id/neutral_btn"
+        android:layout_width="168dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/neutral_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/excited_btn" />
+
+    <ImageButton
+        android:id="@+id/sad_btn"
+        android:layout_width="168dp"
+        android:layout_height="207dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sad_btn"
+        app:layout_constraintBottom_toBottomOf="@+id/neutral_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/neutral_btn" />
+
+    <ImageButton
+        android:id="@+id/angry_btn"
+        android:layout_width="168dp"
+        android:layout_height="207dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/angry_btn"
+        app:layout_constraintBottom_toBottomOf="@+id/anxious_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/anxious_btn" />
+
+    <ImageButton
+        android:id="@+id/anxious_btn"
+        android:layout_width="168dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/anxious_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/neutral_btn" />
+
+    <ImageButton
+        android:id="@+id/excited_btn"
+        android:layout_width="168dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/excited_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SMHow_tv" />
+
+    <ImageButton
+        android:id="@+id/happy_btn"
+        android:layout_width="168dp"
+        android:layout_height="207dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/happy_btn"
+        app:layout_constraintBottom_toBottomOf="@+id/excited_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/excited_btn" />
+
+    <TextView
+        android:id="@+id/SMFeeling_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/feeling"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/SMHow_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/feeling_today"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SMFeeling_tv" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <ImageButton
+        android:id="@+id/fback_btn"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/m_back_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="105dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="28dp"
+        android:background="#FFF0E1"
+        android:backgroundTint="#FFF0E1"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/excited"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/excited_btn"
+        app:layout_constraintEnd_toEndOf="@+id/excited_btn"
+        app:layout_constraintStart_toStartOf="@+id/excited_btn" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="105dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="28dp"
+        android:background="#FFF0E1"
+        android:backgroundTint="#FFF0E1"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/anxious"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/anxious_btn"
+        app:layout_constraintEnd_toEndOf="@+id/anxious_btn"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/anxious_btn" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="105dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="28dp"
+        android:background="#FFF0E1"
+        android:backgroundTint="#FFF0E1"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/happy"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/happy_btn"
+        app:layout_constraintEnd_toEndOf="@+id/happy_btn"
+        app:layout_constraintStart_toStartOf="@+id/happy_btn" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="105dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="28dp"
+        android:background="#FFF0E1"
+        android:backgroundTint="#FFF0E1"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/angry"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/angry_btn"
+        app:layout_constraintEnd_toEndOf="@+id/angry_btn"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/angry_btn" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="105dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="28dp"
+        android:background="#FFF0E1"
+        android:backgroundTint="#FFF0E1"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/sad"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sad_btn"
+        app:layout_constraintEnd_toEndOf="@+id/sad_btn"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/sad_btn" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="105dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="28dp"
+        android:background="#FFF0E1"
+        android:backgroundTint="#FFF0E1"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/neutral"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/neutral_btn"
+        app:layout_constraintEnd_toEndOf="@+id/neutral_btn"
+        app:layout_constraintStart_toStartOf="@+id/neutral_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

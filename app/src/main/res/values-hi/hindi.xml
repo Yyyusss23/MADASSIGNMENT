@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time_frames">
+        <item>चुनें</item>
+        <item>दैनिक</item>
+        <item>साप्ताहिक</item>
+        <item>मासिक</item>
+    </string-array>
+
+    <string-array name="cardio_exercise_types">
+        <item>व्यायाम चुनें</item>
+        <item>चलना</item>
+        <item>दौड़ना</item>
+        <item>तैराकी</item>
+        <item>साइकल चलाना</item>
+        <item>अन्य</item>
+    </string-array>
+
+    <string-array name="weight_exercise_types">
+        <item>व्यायाम चुनें</item>
+        <item>व्यायाम</item>
+        <item>वजन उठाना</item>
+        <item>वजन प्रशिक्षण अन्य</item>
+    </string-array>
+
+    <string-array name="exercise_duration">
+        <item>1 मिनट</item>
+        <item>5 मिनट</item>
+        <item>10 मिनट</item>
+        <item>15 मिनट</item>
+        <item>30 मिनट</item>
+        <item>45 मिनट</item>
+        <item>1 घंटा</item>
+        <item>2 घंटे</item>
+        <item>3 घंटे</item>
+        <item>4 घंटे</item>
+        <item>5 घंटे</item>
+        <item>6 घंटे</item>
+        <item>7 घंटे</item>
+        <item>8 घंटे</item>
+        <item>9 घंटे</item>
+        <item>10 घंटे</item>
+    </string-array>
+
+    <string-array name="exercise_distance">
+        <item>1 किमी</item>
+        <item>2 किमी</item>
+        <item>3 किमी</item>
+        <item>4 किमी</item>
+        <item>5 किमी</item>
+        <item>6 किमी</item>
+        <item>7 किमी</item>
+        <item>8 किमी</item>
+        <item>9 किमी</item>
+        <item>10 किमी</item>
+        <item>11 किमी</item>
+        <item>12 किमी</item>
+        <item>13 किमी</item>
+        <item>14 किमी</item>
+        <item>15 किमी</item>
+        <item>16 किमी</item>
+        <item>17 किमी</item>
+        <item>18 किमी</item>
+        <item>19 किमी</item>
+        <item>20 किमी</item>
+    </string-array>
+    <string name="app_name">Fitness App</string>
+    <string name="welcome">फिटजर्नी एप्लीकेशन में आपका स्वागत है</string>
+    <string name="Home">घर</string>
+    <string name="Profile">प्रोफ़ाइल</string>
+    <string name="Mon">सोमवार</string>
+    <string name="Tue">मंगलवार</string>
+    <string name="Wed">बुधवार</string>
+    <string name="Thu">गुरुवार</string>
+    <string name="Fri">शुक्रवार</string>
+    <string name="Sat">शनिवार</string>
+    <string name="Sun">रविवार</string>
+    <string name="egg_name">अंडे</string>
+    <string name="bread_name">रोटी</string>
+    <string name="orangejuice_name">संतरे का रस</string>
+    <string name="shrimp_name">झींगा</string>
+    <string name="vegetables_name">तली हुए सब्जियों को हिलाएं</string>
+    <string name="chicken_name">चिकन ब्रेस्ट</string>
+    <string name="sweetpotato_name">बैंगनी रतालू</string>
+    <string name="rice_name">चावल</string>
+    <string name="milk_name">दूध</string>
+    <string name="Food_Encyclopedia">खाद्य विश्वकोश</string>
+    <string name="Calorie_Calculator">कैलोरी कैलक्यूलेटर</string>
+    <string name="go_to_profile">प्रोफ़ाइल पर जाएं</string>
+    <string name="confirm">पुष्टि करें</string>
+    <string name="hi_welcome">नमस्ते, आपका स्वागत है</string>
+    <string name="enter_name">अपना नाम दर्ज करें</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="tracker">ट्रैकर</string>
+    <string name="mood_tracker">मूड ट्रैकर</string>
+    <string name="workout_tracker">वर्कआउट ट्रैकर</string>
+    <string name="wellness_tracker">वेलनेस ट्रैकर</string>
+    <string name="get_started">शुरू करें</string>
+    <string name="check_health_status">अपने स्वास्थ्य की स्थिति जांचें</string>
+    <string name="take_a_break">थोड़ा आराम करें</string>
+    <string name="ready_for_new_wins">नई जीत के लिए तैयार?</string>
+    <string name="sick">बीमार</string>
+    <string name="recommended_recipe">अनुशंसित रेसिपी</string>
+    <string name="fuel_your_fitness">अपने फिटनेस को इस\nपावर-पैक, प्रोटीन-समृद्ध\nरेसिपी के साथ बढ़ाएं!</string>
+    <string name="save">सहेजें</string>
+    <string name="injured">चोटिल</string>
+    <string name="hi_user">नमस्ते, उपयोगकर्ता!</string>
+    <string name="active">सक्रिय</string>
+    <string name="crush_it">इसे कुचलो।</string>
+    <string name="welcome_text">नमस्ते, स्वागत है</string>
+    <string name="save_button_text">सहेजें</string>
+    <string name="name_input_hint">अपना नाम दर्ज करें</string>
+    <string name="privacy_policy_title">गोपनीयता नीति</string>
+    <string name="privacy_policy_content">Tracker में, हम आपकी व्यक्तिगत जानकारी की सुरक्षा करके और अपनी प्रथाओं को स्पष्ट रूप से समझाकर आपकी गोपनीयता को प्राथमिकता देते हैं। हम सेवाओं को बेहतर बनाने, आपके अनुभव को वैयक्तिकृत करने और आपकी फिटनेस प्रगति को ट्रैक करने के लिए व्यक्तिगत विवरण, स्वास्थ्य मेट्रिक्स, स्थान (यदि सक्षम है), और डिवाइस जानकारी जैसी डेटा इकट्ठा करते हैं। हम विश्वसनीय तृतीय-पक्ष प्रदाताओं के साथ जानकारी साझा कर सकते हैं और केवल कानूनी आवश्यकताओं के अनुसार डेटा का खुलासा करते हैं। हम आपकी डेटा की सुरक्षा के लिए मजबूत सुरक्षा उपाय लागू करते हैं लेकिन ध्यान दें कि कोई भी ऑनलाइन प्रणाली पूरी तरह से सुरक्षित नहीं है। आप ऐप के भीतर अपनी डेटा को एक्सेस, अपडेट या हटा सकते हैं, और सूचनाओं की प्राथमिकताएं प्रबंधित कर सकते हैं। हमारा ऐप 13 वर्ष से कम उम्र के बच्चों के लिए अभिप्रेत नहीं है और हम केवल आवश्यकतानुसार डेटा बनाए रखते हैं। इस नीति के अपडेट्स ऐप के माध्यम से सूचित किए जाएंगे और आप किसी भी सवाल के लिए tracker@gmail.com पर संपर्क कर सकते हैं।</string>
+    <string name="last_updated">अंतिम अपडेट: लोड हो रहा है...</string>
+    <string name="about_me">मेरे बारे में</string>
+    <string name="user_name">उपयोगकर्ता नाम</string>
+    <string name="my_mood">मेरा मूड</string>
+    <string name="my_wellness">मेरा स्वास्थ्य</string>
+    <string name="my_profile">मेरी प्रोफ़ाइल</string>
+    <string name="my_workout">मेरी कसरत</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="support_us">हमें समर्थन दें</string>
+    <string name="language">भाषा</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="profile_title">मेरी प्रोफ़ाइल</string>
+    <string name="enter_gender">लिंग दर्ज करें</string>
+    <string name="enter_age">उम्र दर्ज करें</string>
+    <string name="enter_weight">वजन दर्ज करें (किग्रा)</string>
+    <string name="enter_year_of_birth">जन्म का वर्ष दर्ज करें</string>
+    <string name="enter_height">ऊंचाई दर्ज करें (सेमी)</string>
+    <string name="save_button">सहेजें</string>
+    <string name="saved_details">आपका सहेजा गया विवरण यहां दिखाई देगा</string>
+    <string name="update_user_profile">उपयोगकर्ता प्रोफ़ाइल अपडेट करें</string>
+    <string name="achieved_goal">आपने अपना लक्ष्य प्राप्त कर लिया है!</string>
+    <string name="congrats">बधाई हो!</string>
+    <string name="todays_goal_ml">आज का लक्ष्य (मि.ली.):</string>
+    <string name="enter_goal">अपना लक्ष्य दर्ज करें</string>
+    <string name="add">जोड़ें</string>
+    <string name="close">बंद करें</string>
+    <string name="todays_goal_steps">आज का लक्ष्य (कदम):</string>
+    <string name="enter_hydration">अपना हाइड्रेशन इनटेक (मि.ली.) दर्ज करें</string>
+    <string name="bmi_calculator">बीएमआई कैलकुलेटर</string>
+    <string name="calculate">गणना करें</string>
+    <string name="bmi_result">आपका बीएमआई है ....</string>
+    <string name="bmi_category">जो है</string>
+    <string name="bmi_underweight">जिसका मतलब है कम वजन।</string>
+    <string name="bmi_normal">जिसका मतलब है सामान्य वजन।</string>
+    <string name="bmi_overweight">जिसका मतलब है अधिक वजन।</string>
+    <string name="bmi_obese">जिसका मतलब है मोटापा।</string>
+    <string name="bmi_value">0.0</string>
+    <string name="bmi_categories">बीएमआई श्रेणियाँ:</string>
+    <string name="bmi_fragment">फ्रैगमेंट बीएमआई</string>
+    <string name="underweight">कम वजन</string>
+    <string name="normal">सामान्य</string>
+    <string name="overweight">अधिकार वजन</string>
+    <string name="obese">मोटापा</string>
+    <string name="zero">0</string>
+    <string name="time_placeholder">00:00</string>
+    <string name="inhale">सांस लें</string>
+    <string name="exhale">साँस छोड़ना</string>
+    <string name="breathing_exercise_478">4-7-8\nसांस लेने का व्यायाम</string>
+    <string name="breathing_exercise">सांस लेने का व्यायाम</string>
+    <string name="exit_confirmation">क्या आप इस व्यायाम से बाहर निकलना चाहते हैं?</string>
+    <string name="great_job">शानदार काम! एक पल लें और महसूस करें कि आप कैसा महसूस कर रहे हैं।</string>
+    <string name="done">हो गया</string>
+    <string name="height_cm">ऊँचाई (से.मी.)</string>
+    <string name="weight_kg">वजन (किलो)</string>
+    <string name="gender">पुरुष या महिला</string>
+    <string name="year_of_birth">जन्म वर्ष</string>
+    <string name="workout_time">कसरत का समय!</string>
+    <string name="progress_goal">प्रगति लक्ष्य</string>
+    <string name="history">इतिहास</string>
+    <string name="log_diary">डायरी में लिखें</string>
+    <string name="start_goal">अभी अपना लक्ष्य सेट करना शुरू करें!</string>
+    <string name="mindfulness_meditation">माइंडफुलनेस\nध्यान अभ्यास</string>
+    <string name="breathing_instructions">इस अभ्यास में, आप 4 सेकंड के लिए साँस लेंगे, 7 सेकंड के लिए रोकेंगे, और 8 सेकंड के लिए साँस छोड़ेंगे। ऑन-स्क्रीन काउंटडाउन का पालन करें।</string>
+    <string name="start">शुरू करें</string>
+    <string name="meditation_instructions">इस अभ्यास में, अपनी आँखें बंद करें और अपनी स्वाभाविक सांस पर ध्यान केंद्रित करें। हर सांस अंदर और बाहर महसूस करें। यदि विचार आएं, तो बिना निर्णय के अपनी सांस पर वापस लौटें। बस उपस्थित रहें।</string>
+    <string name="summary">सारांश देखें</string>
+    <string name="history_summary">इतिहास - सारांश</string>
+    <string name="cardio_exercise">कार्डियो प्रकार का व्यायाम</string>
+    <string name="weight_training_exercise">वजन प्रशिक्षण प्रकार का व्यायाम</string>
+    <string name="run">दौड़ें</string>
+    <string name="walk">चलें</string>
+    <string name="cycle">साइकिल</string>
+    <string name="swim">तैरें</string>
+    <string name="others">अन्य</string>
+    <string name="workout">व्यायाम</string>
+    <string name="weight_lift">वजन उठाना</string>
+    <string name="back">वापस</string>
+    <string name="distance_placeholder">0 कि.मी.</string>
+    <string name="duration_placeholder">0 मिनट</string>
+    <string name="weekdays">      रविवार     सोमवार      मंगलवार    बुधवार     गुरुवार       शुक्रवार        शनिवार</string>
+    <string name="feeling">महसूस करना</string>
+    <string name="excited">उत्साहित</string>
+    <string name="happy">खुश</string>
+    <string name="sad">उदास</string>
+    <string name="neutral">तटस्थ</string>
+    <string name="anxious">चिंतित</string>
+    <string name="angry">गुस्से में</string>
+    <string name="mindfulness">माइंडफुलनेस अभ्यास</string>
+    <string name="journal">जर्नल</string>
+    <string name="hydration_history">हाइड्रेशन इतिहास</string>
+    <string name="hydration_tracker">हाइड्रेशन ट्रैकर</string>
+    <string name="goal">लक्ष्य:</string>
+    <string name="record">रिकॉर्ड:</string>
+    <string name="history_caps">इतिहास</string>
+    <string name="photo_of_day">दिन का फोटो</string>
+    <string name="date">तारीख</string>
+    <string name="example_date">1 दिसंबर 2024</string>
+    <string name="weather">मौसम</string>
+    <string name="note">नोट</string>
+    <string name="type">प्रकार</string>
+    <string name="duration">अवधि</string>
+    <string name="daily_log">दैनिक लॉग</string>
+    <string name="update">अपडेट करें</string>
+    <string name="distance">दूरी</string>
+    <string name="fitness_goal">अपना फिटनेस लक्ष्य सेट करें</string>
+    <string name="time_frame">समय सीमा</string>
+    <string name="set_goal">अपना लक्ष्य सेट करें</string>
+    <string name="feeling_today">आज आप कैसा महसूस कर रहे हैं?</string>
+    <string name="step_history">कदम इतिहास</string>
+    <string name="age">साल का</string>
+    <string name="user_height">उपयोगकर्ता की ऊँचाई</string>
+    <string name="user_weight">उपयोगकर्ता का वजन</string>
+    <string name="user_gender">उपयोगकर्ता का लिंग</string>
+    <string name="user_birth">उपयोगकर्ता का जन्म</string>
+    <string name="edit">संपादित करें</string>
+    <string name="exercise_type">व्यायाम का प्रकार</string>
+    <string name="attributes">गुण</string>
+    <string name="cardio_attributes">व्यायाम का प्रकार: कार्डियो</string>
+    <string name="attributes_km">गुण: 5 कि.मी.</string>
+    <string name="timestamp">समय चिह्न</string>
+    <string name="quantity">मात्रा</string>
+    <string name="step_tracking">कदम ट्रैकिंग</string>
+    <string name="calories_burned">जली हुई कैलोरी</string>
+    <string name="stop">रुकें</string>
+    <string name="steps">कदम</string>
+    <string name="km">किमी</string>
+    <string name="meditation_exercise">ध्यान अभ्यास</string>
+    <string name="hold">पकड़ना</string>
+    <string name="T3_min">3 मिनट</string>
+    <string name="T5_min">5 मिनट</string>
+    <string name="T1_min">1 मिनट</string>
+    <string name="T15_min">15 मिनट</string>
+    <string name="T25_min">25 मिनट</string>
+    <string name="years_old">साल का</string>
+    <string name="cardio_exercise_aero">कार्डियो/एरोबिक प्रकार का व्यायाम</string>
+    <string name="weight_exercise_training">वजन-प्रशिक्षण प्रकार का व्यायाम</string>
+    <string name="hydration_intake">अपनी पानी की मात्रा दर्ज करें (मि.ली.)</string>
+    <string name="no">नहीं</string>
+    <string name="yes">हाँ</string>
+    <string name="date_2023">तारीख: 2023-01-01</string>
+    <string name="egg">अंडों का सरल परिचय\nअंडे एक बहुपयोगी और पोषक तत्वों से भरपूर खाद्य पदार्थ हैं जिसे लगभग हर कोई पसंद करता है।\nवे न केवल स्वादिष्ट होते हैं बल्कि आपके स्वास्थ्य के लिए भी बेहद अच्छे हैं।</string>
+    <string name="bread">\t\t\t\tब्रेड का सरल परिचय\nब्रेड एक मुख्य भोजन है जो आटे और पानी के आटे से तैयार किया जाता है, आमतौर पर बेकिंग द्वारा।\nयह बहुमुखी है और आपके दिन को शक्ति प्रदान करने के लिए ऊर्जा प्रदान करता है।</string>
+    <string name="orange_juice">\t\t\t\tसंतरे के रस का सरल परिचय\nसंतरे का रस विटामिन सी और अन्य आवश्यक पोषक तत्वों से भरपूर एक ताज़ा पेय है।\nयह आपके दिन को ऊर्जा और स्वास्थ्य के साथ शुरू करने का एक शानदार तरीका है।</string>
+    <string name="shrimp">\t\t\t\tझींगा का सरल परिचय\nझींगा एक प्रकार का समुद्री भोजन है जो कैलोरी में कम और प्रोटीन से भरपूर होता है।\nवे दुनिया भर के कई व्यंजनों में एक लोकप्रिय सामग्री हैं।</string>
+    <string name="vegetables">\t\t\t\tसब्जियों का सरल परिचय\nसब्जियां स्वस्थ आहार का एक महत्वपूर्ण हिस्सा हैं, जो विटामिन, खनिज और फाइबर प्रदान करती हैं।\nभोजन में सब्जियों को शामिल करना संतुलित पोषण की कुंजी है।</string>
+    <string name="chicken">\t\t\t\tचिकन का सरल परिचय\nचिकन प्रोटीन का एक दुबला स्रोत है जो स्वादिष्ट और बहुमुखी दोनों है।\nइसे किसी भी व्यंजन के अनुरूप अनगिनत तरीकों से तैयार किया जा सकता है।</string>
+    <string name="sweet_potato">\t\t\t\tबैंगनी शकरकंद का सरल परिचय\nबैंगनी शकरकंद न केवल रंग में जीवंत है, बल्कि एंटीऑक्सिडेंट और पोषक तत्वों से भी भरपूर है।\nवे पौष्टिक और संतोषजनक भोजन के लिए एक बढ़िया विकल्प हैं।</string>
+    <string name="rice">\t\t\t\tचावल का सरल परिचय\nचावल दुनिया भर में खाया जाने वाला मुख्य भोजन है और कार्बोहाइड्रेट का एक उत्कृष्ट स्रोत है।\nयह बहुमुखी है और इसे विभिन्न व्यंजनों के साथ जोड़ा जा सकता है।</string>
+    <string name="milk">\t\t\t\tदूध का सरल परिचय\nदूध एक पोषक तत्व से भरपूर तरल है जो कैल्शियम, प्रोटीन और आवश्यक विटामिन प्रदान करता है।\nयह कई आहारों की आधारशिला है और इसका विभिन्न रूपों में सेवन किया जा सकता है।</string>
+    <string name="total_calorie">कुल कैलोरी=</string>
+    <string name="breakfast">नाश्ता</string>
+    <string name="lunch">दोपहर का भोजन</string>
+    <string name="dinner">रात का खाना</string>
+    <string name="enter_target">अपना लक्षित शरीर वसा प्रतिशत और वजन दर्ज करें।</string>
+    <string name="target_body_fat">लक्षित शरीर वसा प्रतिशत</string>
+    <string name="target_weight">लक्षित वजन</string>
+    <string name="next">अगला</string>
+    <string name="search">खोज</string>
+    <string name="customizing_recipes">कृपया प्रतीक्षा करें, हम आपके लिए अनुशंसित व्यंजन अनुकूलित कर रहे हैं।</string>
+    <string name="default_language">डअंग्रेज़ी</string>
+    <string name="chinese">चीनी</string>
+    <string name="malay">मलय</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="change_language">भाषा बदलें</string>
+    <string name="days_of_week">\t \t रवि     \t \t सोम     \t\tमंगल       \t बुध       \t\t गुरु       \t\tशुक्र      \t\t\tशनि    </string>
+    <string name="height">ऊंचाई</string>
+    <string name="weight">वजन</string>
+    <string name="genderL">लिंग</string>
+    <string name="FOOD_1">भोजन 1</string>
+    <string name="Weight_g">वजन (ग्रा)</string>
+    <string name="weekly_recipe">साप्ताहिक नुस्खा</string>
+
+</resources>

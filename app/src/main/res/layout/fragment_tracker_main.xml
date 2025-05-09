@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0E1"
+    tools:context=".TrackerMain">
+
+    <TextView
+        android:id="@+id/TrackerTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/tracker"
+        android:textAlignment="center"
+        android:textColor="#ffae43"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- ImageView (Background Image) -->
+
+    <ImageView
+        android:id="@+id/tracker_background"
+        android:layout_width="342dp"
+        android:layout_height="598dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tracker_background" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnMoodTracker"
+        android:layout_width="155dp"
+        android:layout_height="43dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/get_started"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/trackerTittle"
+        app:layout_constraintTop_toBottomOf="@+id/trackerTittle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnWorkoutTracker"
+        android:layout_width="155dp"
+        android:layout_height="43dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/get_started"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/trackerTittle3"
+        app:layout_constraintTop_toBottomOf="@+id/trackerTittle3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnWellnessTracker"
+        android:layout_width="155dp"
+        android:layout_height="43dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/get_started"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/trackerTittle2"
+        app:layout_constraintTop_toBottomOf="@+id/trackerTittle2" />
+
+    <TextView
+        android:id="@+id/trackerTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/mood_tracker"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/tracker_background"
+        app:layout_constraintTop_toTopOf="@+id/tracker_background" />
+
+    <TextView
+        android:id="@+id/trackerTittle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/workout_tracker"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/BtnMoodTracker"
+        app:layout_constraintTop_toBottomOf="@+id/BtnMoodTracker" />
+
+    <TextView
+        android:id="@+id/trackerTittle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/wellness_tracker"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/BtnWorkoutTracker"
+        app:layout_constraintTop_toBottomOf="@+id/BtnWorkoutTracker" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

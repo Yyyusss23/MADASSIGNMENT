@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MenuItemStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textColor">@color/menu_text_color</item>
+        <item name="android:drawableTint">@color/menu_icon_tint</item>
+    </style>
+</resources>

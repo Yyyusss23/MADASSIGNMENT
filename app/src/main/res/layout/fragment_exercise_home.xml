@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0E1"
+    tools:context=".ExerciseModule.ExerciseHomeFragment" >
+
+    <TextView
+        android:id="@+id/TVTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/workout_time"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FDA341"
+        android:fontFamily="@font/poppins_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <ImageButton
+        android:id="@+id/BtnProgressGoal"
+        android:layout_width="300dp"
+        android:layout_height="224dp"
+        android:background="#FFF0E1"
+        android:contentDescription="TODO"
+        android:labelFor="@id/TVProgressGoal"
+        android:src="@drawable/button_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274" />
+
+    <ImageButton
+        android:id="@+id/BtnLog"
+        android:layout_width="137dp"
+        android:layout_height="117dp"
+        android:background="#FFF0E1"
+        android:contentDescription="TODO"
+        android:src="@drawable/button_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638"
+        tools:labelFor="@id/TVLog" />
+
+    <ImageButton
+        android:id="@+id/BtnHistory"
+        android:layout_width="137dp"
+        android:layout_height="117dp"
+        android:background="#FFF0E1"
+        android:contentDescription="TODO"
+        android:src="@drawable/button_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638"
+        tools:labelFor="@id/TVHistory" />
+
+    <ProgressBar
+        android:id="@+id/PBProgressGoal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="197dp"
+        android:layout_height="70dp"
+        android:progressBackgroundTint="#FFCB97"
+        android:progressTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/BtnProgressGoal"
+        app:layout_constraintEnd_toEndOf="@+id/BtnProgressGoal"
+        app:layout_constraintStart_toStartOf="@+id/BtnProgressGoal"
+        app:layout_constraintTop_toTopOf="@+id/BtnProgressGoal" />
+
+    <TextView
+        android:id="@+id/TVProgressGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/progress_goal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintBottom_toBottomOf="@+id/BtnProgressGoal"
+        app:layout_constraintEnd_toEndOf="@+id/BtnProgressGoal"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/BtnProgressGoal"
+        app:layout_constraintTop_toTopOf="@+id/BtnProgressGoal"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <TextView
+        android:id="@+id/TVHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/history"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintBottom_toBottomOf="@+id/BtnHistory"
+        app:layout_constraintEnd_toEndOf="@+id/BtnHistory"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/BtnHistory"
+        app:layout_constraintTop_toTopOf="@+id/BtnHistory"
+        app:layout_constraintVertical_bias="0.863" />
+
+    <TextView
+        android:id="@+id/TVLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_diary"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintBottom_toBottomOf="@+id/BtnLog"
+        app:layout_constraintEnd_toEndOf="@+id/BtnLog"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="@+id/BtnLog"
+        app:layout_constraintTop_toTopOf="@+id/BtnLog"
+        app:layout_constraintVertical_bias="0.863" />
+
+    <TextView
+        android:id="@+id/TVPGDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_goal"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppins_regular"
+        app:layout_constraintBottom_toBottomOf="@+id/BtnProgressGoal"
+        app:layout_constraintEnd_toEndOf="@+id/BtnProgressGoal"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/BtnProgressGoal"
+        app:layout_constraintTop_toTopOf="@+id/BtnProgressGoal"
+        app:layout_constraintVertical_bias="0.892" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_history"
+        app:layout_constraintBottom_toBottomOf="@+id/BtnHistory"
+        app:layout_constraintEnd_toEndOf="@+id/BtnHistory"
+        app:layout_constraintStart_toStartOf="@+id/BtnHistory"
+        app:layout_constraintTop_toTopOf="@+id/BtnHistory"
+        app:layout_constraintVertical_bias="0.269" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="57dp"
+        android:layout_height="54dp"
+        android:src="@drawable/icon_log"
+        app:layout_constraintBottom_toBottomOf="@+id/BtnLog"
+        app:layout_constraintEnd_toEndOf="@+id/BtnLog"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="@+id/BtnLog"
+        app:layout_constraintTop_toTopOf="@+id/BtnLog"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/m_back_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

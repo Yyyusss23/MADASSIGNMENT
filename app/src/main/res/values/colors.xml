@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="menu_text_color">#FFFFFF</color> <!-- Change to your desired text color -->
+    <color name="menu_icon_tint">#FFF0E1</color> <!-- Change to your desired icon tint -->
+    <color name="color_blue_light">#003DDC</color>
+    <color name="color_blue">#0C84FF</color>
+    <color name="color_ffae43">#ffae43</color>
+    <color name="color_99FFAE43">#99FFAE43</color>
+    <color name="color_fddec2">#fddec2</color>
+    <color name="color_fda341">#fda341</color>
+</resources>

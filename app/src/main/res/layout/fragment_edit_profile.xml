@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0E1"
+    tools:context=".UserModule.EditProfileFragment">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="320dp"
+        android:layout_height="246dp"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/orangeboxuser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ETUserHeight"
+        android:layout_width="131dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="@string/height_cm"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#FFF0E1"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <EditText
+        android:id="@+id/ETUserWeight"
+        android:layout_width="131dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="@string/weight_kg"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#FFF0E1"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/ETUserHeight"
+        app:layout_constraintTop_toBottomOf="@+id/ETUserHeight" />
+
+    <EditText
+        android:id="@+id/ETUserGender"
+        android:layout_width="130dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="@string/gender"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#FFF0E1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/ETUserHeight"
+        app:layout_constraintTop_toBottomOf="@+id/ETUserWeight" />
+
+    <EditText
+        android:id="@+id/ETUserBirth"
+        android:layout_width="131dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="@string/year_of_birth"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#FFF0E1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/ETUserHeight"
+        app:layout_constraintTop_toBottomOf="@+id/ETUserWeight" />
+
+    <Button
+        android:id="@+id/BtnSave"
+        android:layout_width="102dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="88dp"
+        android:backgroundTint="#ffae43"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/UserHeightLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/height"
+        android:textAlignment="center"
+        android:textColor="#FFF0E1"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/UserWeightLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/weight"
+        android:textAlignment="center"
+        android:textColor="#FFF0E1"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/UserHeightLeft"
+        app:layout_constraintTop_toBottomOf="@+id/UserHeightLeft" />
+
+    <TextView
+        android:id="@+id/UserGenderLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/genderL"
+        android:textAlignment="center"
+        android:textColor="#FFF0E1"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/UserWeightLeft"
+        app:layout_constraintTop_toBottomOf="@+id/UserWeightLeft" />
+
+    <TextView
+        android:id="@+id/UserYearLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/year_of_birth"
+        android:textAlignment="center"
+        android:textColor="#FFF0E1"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/UserGenderLeft"
+        app:layout_constraintTop_toBottomOf="@+id/UserGenderLeft" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

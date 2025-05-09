@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/button_background"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/date_2023"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppins_semibold" />
+
+    <TextView
+        android:id="@+id/tvExerciseType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/cardio_attributes"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvAttributes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/attributes_km"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
